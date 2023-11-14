@@ -1,51 +1,50 @@
-.container {
+  .container {
   max-width: 1440px;
   background-color: #fff;
   background-repeat: repeat-y;
-}
+  }
 
-:root{
+  :root{
   --background-black: #000;
-  --background-black-01: #020406;
-  --background-black-02: #242424;
   --background-white: #FAFAFA;
-  --background-white-01: #F6F3F1;
-  --background-white-02: #FCFAF8;
+  --background-bege: #f3efea
+  --background-bege-clean: #f4f4f4;
+  --background-blue-clean: #effaff;
+  --background-bege-tree: #f9f7f3;
+  --background-bege-two: #f8f2ea;
+  --background-cinza: #f5f5f5; 
+  }
 
-  --title-green: #6C8A88;
-  --title-black: #292929;
-  --title-icon:#927964;
+  .txt-preto {color: var(--background-black);}
+  .txt-branco {color: var(--background-white);}
 
-  --subtitle-color-orange:#FF9338;
-  --subtitle-color-ornage-second: #FFAF5B;
-  --subtitle-color-silver:#BEBEBE;
-}
+  .boxcolor-silver{background: var(--background-cinza);}
+  .boxcolor-bege{background: var(--background-bege-two);}
+  .boxcolor-blue-clean{background: var(--background-blue-clean);}
 
 
-@font-face {
+  .boxcolor-bege-tree{background: var(--background-bege-tree);}
+
+  .boxcolor-black{background-color: var(--background-black);}
+  .boxcolor-with{background-color: var(--background-white);}
+
+  .boxcolor-notas {background-color: var(--background-black-02);}
+
+  @font-face {
   font-family: 'Xiaomi Brand';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
   src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
-}
+  }
 
+  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
+  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
-@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
+  .img-fluid {width: 100%; height: auto;}
+  .img-margin{margin-bottom: 6rem;}
 
-
-.img-fluid {
-  width: 100%;
-  height: auto;
-
-}
-
-.img-margin{
-  margin-bottom: 6rem;
-}
-
-.title {
+  .title {
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
@@ -54,10 +53,9 @@
   line-height: 1;
   overflow-wrap: break-word;
   color: var(--title-black);
-}
+  }
 
-
-.subtitle {
+  .subtitle {
   text-align: center;
   font-size: 2.3rem;
   font-weight: 600;
@@ -65,43 +63,20 @@
   position: relative;
   margin-bottom: 1rem;
   overflow-wrap: break-word;
-}
+  }
 
-.subtitle-color-silver{
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-silver);
-}
-
-.subtitle-color-orange {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-orange);
-}
-
-.subtitle-color-orange-second{
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-ornage-second);
-}
+  .sub-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 300;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    }
 
 
-.p-center {
+  .p-center {
   font-size: 1.1rem;
   text-align: center;
   padding: 20px;
@@ -109,23 +84,22 @@
   position: relative;
   line-height: 1.3;
   overflow-wrap: break-word;
-}
+  }
 
-.p-aviso {
+  .p-aviso {
   font-size: 0.9rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
-}
+  }
 
-.p-notas{
-  text-align: left;
+  .p-notas{
+  text-align: center;
   font-size: 1rem;
-  padding: 5rem;
-}
+  }
 
-.icons-title {
+  .icons-title {
   font-size: 2.7rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
@@ -134,10 +108,9 @@
   color: var(--title-icon);
   margin-top: 1rem;
   line-height: 1.2;
-}
+  }
 
-
-.icons-text {
+  .icons-text {
   font-size: 1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
@@ -145,50 +118,33 @@
   font-weight: 400;
   line-height: 1.2;
   margin-top: 1rem;
-}
+  }
 
-.icons-tex {
+  .icons-tex {
   font-size: 1rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   font-weight: 400;
   color: #7f7f7f;
-}
+  }
 
-
-.title-green {color: var(--title-green);}
-.txt-preto {color: var(--background-black);}
-.txt-branco {color: var(--background-white);}
-
-.boxcolor-black{background-color: var(--background-black);}
-.boxcolor-black-01{background-color: var(--background-black-01);}
-.boxcolor-black-02{background-color: var(--background-black-02);}
-.boxcolor-with{background-color: var(--background-white);}
-.boxcolor-white-01{background-color: var(--background-white-01);}
-.boxcolor-white-02{background-color: var(--background-white-02);}
-
-.boxcolor-notas {background-color: var(--background-black-02);}
-
-p.txt-branco-preto {color: var(--background-white);}
 .spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
-
   .grid-six-bloc {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.1rem;
-    max-width: 0rem;
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.1rem;
+  max-width: 0rem;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
   }
 
-
-.grid-desk-xiaomi{ 
+  .grid-desk-xiaomi{ 
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -196,12 +152,12 @@ p.txt-branco-preto {color: var(--background-white);}
   justify-content: center;
   align-items: center;
   gap: 5rem;
-}
+  }
 
-.img-grid-mob{display: none;}
-.img-grid-desk{display: block;padding: 8rem;}
-.icon-white-desk{display: block;}
-.icon-dark-mob{display: none;}
+  .img-grid-mob{display: none;}
+  .img-grid-desk{display: block;padding: 8rem;}
+  .icon-white-desk{display: block;}
+  .icon-dark-mob{display: none;}
 
 /****************************** Mobile ************************************************/
 
@@ -214,7 +170,7 @@ p.txt-branco-preto {color: var(--background-white);}
 
 /********************** Grind Mobile *******************/
 
-.grid-desk-xiaomi {
+  .grid-desk-xiaomi {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -222,14 +178,14 @@ p.txt-branco-preto {color: var(--background-white);}
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
+  }
 
 /********************************************************/
 
   .spacing{padding: 1.5rem;}
 
   p.txt-branco-preto {color: #05061a;}
-  
+
   .title {
   text-align: center;
   font-size: 2rem;
@@ -249,7 +205,7 @@ p.txt-branco-preto {color: var(--background-white);}
   overflow-wrap: break-word;
   color: var(--subtitle-color-silver);
   }
-  
+
   .subtitle-color-orange {
   text-align: center;
   font-size: 1.09rem;
@@ -332,8 +288,5 @@ p.txt-branco-preto {color: var(--background-white);}
   font-size: 0.9rem;
   padding: 0.5rem;
   }
-
-
-
 
 }

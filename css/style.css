@@ -8,7 +8,7 @@
   --background-black: #000;
   --background-white: #FAFAFA;
   --background-bege: #f3efea
-  --background-bege-clean: #f4f4f4;
+
   --background-blue-clean: #effaff;
   --background-bege-tree: #f9f7f3;
   --background-bege-two: #f8f2ea;
@@ -20,15 +20,10 @@
 
   .boxcolor-silver{background: var(--background-cinza);}
   .boxcolor-bege{background: var(--background-bege-two);}
-  .boxcolor-blue-clean{background: var(--background-blue-clean);}
-
-
   .boxcolor-bege-tree{background: var(--background-bege-tree);}
-
+  .boxcolor-blue-clean{background: var(--background-blue-clean);}
   .boxcolor-black{background-color: var(--background-black);}
   .boxcolor-with{background-color: var(--background-white);}
-
-  .boxcolor-notas {background-color: var(--background-black-02);}
 
   @font-face {
   font-family: 'Xiaomi Brand';
@@ -95,7 +90,7 @@
   }
 
   .p-notas{
-  text-align: center;
+  text-align: left;
   font-size: 1rem;
   }
 

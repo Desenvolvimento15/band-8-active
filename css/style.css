@@ -63,14 +63,14 @@
   }
 
   .sub-title {
-    text-align: center;
-    font-size: 2.3rem;
-    font-weight: 300;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 1rem;
-    overflow-wrap: break-word;
-    }
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 300;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  }
 
 
   .p-center {
@@ -190,39 +190,6 @@
   font-family: "Xiaomi Brand";
   position: relative;
   line-height: 1;
-  }
-
-  .subtitle-color-silver{
-  text-align: center;
-  font-size: 1.09rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-silver);
-  }
-
-  .subtitle-color-orange {
-  text-align: center;
-  font-size: 1.09rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-orange);
-  }
-
-  .subtitle-color-orange-second{
-  text-align: center;
-  font-size: 1.09rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  color: var(--subtitle-color-ornage-second);
   }
 
   .subtitle {

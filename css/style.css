@@ -52,16 +52,6 @@
   color: var(--title-black);
   }
 
-  .subtitle {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  }
-
   .sub-title {
   text-align: center;
   font-size: 2.3rem;
@@ -72,6 +62,15 @@
   overflow-wrap: break-word;
   }
 
+  .subtitle {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  }
 
   .p-center {
   font-size: 1.1rem;
@@ -94,36 +93,6 @@
   .p-notas{
   text-align: left;
   font-size: 1rem;
-  }
-
-  .icons-title {
-  font-size: 2.7rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  color: var(--title-icon);
-  margin-top: 1rem;
-  line-height: 1.2;
-  }
-
-  .icons-text {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 400;
-  line-height: 1.2;
-  margin-top: 1rem;
-  }
-
-  .icons-tex {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 400;
-  color: #7f7f7f;
   }
 
 .spacing{padding: 3rem;}
@@ -204,7 +173,6 @@
   .p-center {
   font-size: 0.99rem;
   text-align: center;
-  padding: 20px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
@@ -217,34 +185,6 @@
   position: relative;
   font-weight: 300;
   padding: 1.5rem
-  }
-
-  .icons-title {
-  font-size: 1.9rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  margin-top: 1rem;
-  }
-
-  .icons-text {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 1rem;
-  }
-
-  .icons-tex {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 400;
-  color: #7f7f7f;
   }
 
   .p-notas {

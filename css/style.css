@@ -1,196 +1,206 @@
-  .container {
-  max-width: 1440px;
-  background-color: #fff;
-  background-repeat: repeat-y;
-  }
+.container {
+max-width: 1440px;
+background-color: #fff;
+background-repeat: repeat-y;
+}
 
-  :root{
-  --background-black: #000;
-  --background-white: #FAFAFA;
-  --background-bege: #f3efea;
-  --background-bege-four: #F3EFEA;
-  --background-blue-clean: #effaff;
-  --background-bege-tree: #f9f7f3;
-  --background-bege-two: #f8f2ea;
-  --background-cinza: #f5f5f5; 
-  }
+:root{
+--background-black: #000;
+--background-white: #FAFAFA;
+--background-bege: #f3efea;
+--background-bege-four: #F3EFEA;
+--background-blue-clean: #effaff;
+--background-bege-tree: #f9f7f3;
+--background-bege-two: #f8f2ea;
+--background-cinza: #f5f5f5; 
+}
 
-  .txt-preto {color: var(--background-black);}
-  .txt-branco {color: var(--background-white);}
+.txt-preto {color: var(--background-black);}
+.txt-branco {color: var(--background-white);}
 
-  .boxcolor-silver{background: var(--background-cinza);}
-  .boxcolor-bege{background: var(--background-bege-two);}
-  .boxcolor-bege-tree{background: var(--background-bege-tree);}
-  .boxcolor-bege-four{background: var(--background-bege-four);}
+.boxcolor-silver{background: var(--background-cinza);}
+.boxcolor-bege{background: var(--background-bege-two);}
+.boxcolor-bege-tree{background: var(--background-bege-tree);}
+.boxcolor-bege-four{background: var(--background-bege-four);}
 
-  .boxcolor-blue-clean{background: var(--background-blue-clean);}
-  .boxcolor-black{background-color: var(--background-black);}
-  .boxcolor-with{background-color: var(--background-white);}
+.boxcolor-blue-clean{background: var(--background-blue-clean);}
+.boxcolor-black{background-color: var(--background-black);}
+.boxcolor-with{background-color: var(--background-white);}
 
-  @font-face {
-  font-family: 'Xiaomi Brand';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
-  }
+@font-face {
+font-family: 'Xiaomi Brand';
+font-style: normal;
+font-weight: 100 900;
+font-display: swap;
+src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
+}
 
-  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
-  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-  .img-fluid {width: 100%; height: auto;}
-  .img-margin{margin-bottom: 6rem;}
+.img-fluid {width: 100%; height: auto;}
+.img-margin{margin-bottom: 6rem;}
 
-  .title {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 500;
-  font-family: "Xiaomi Brand";
-  position: relative;
-  line-height: 1;
-  overflow-wrap: break-word;
-  color: var(--title-black);
-  }
+.title {
+text-align: center;
+font-size: 3rem;
+font-weight: 500;
+font-family: "Xiaomi Brand";
+position: relative;
+line-height: 1;
+overflow-wrap: break-word;
+color: var(--title-black);
+}
 
-  .sub-title {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 300;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  }
+.sub-title {
+text-align: center;
+font-size: 2.3rem;
+font-weight: 300;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+margin-bottom: 1rem;
+overflow-wrap: break-word;
+}
 
-  .subtitle {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  }
+.subtitle {
+text-align: center;
+font-size: 2.3rem;
+font-weight: 600;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+margin-bottom: 1rem;
+overflow-wrap: break-word;
+}
 
-  .p-center {
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 20px;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  line-height: 1.3;
-  overflow-wrap: break-word;
-  }
+.p-center {
+font-size: 1.1rem;
+text-align: center;
+padding: 20px;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+line-height: 1.3;
+overflow-wrap: break-word;
+}
 
-  .p-aviso {
-  font-size: 0.9rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+.p-aviso {
+font-size: 0.9rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
 
-  .p-notas{
-  text-align: left;
-  font-size: 1rem;
-  }
+.p-notas{
+text-align: left;
+font-size: 1rem;
+}
 
 .spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
-  .grid-six-bloc {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.1rem;
-  max-width: 0rem;
-  margin: 0 auto;
-  align-content: center;
-  justify-content: center;
-  }
+.grid-six-bloc {
+display: grid;
+justify-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1.1rem;
+max-width: 0rem;
+margin: 0 auto;
+align-content: center;
+justify-content: center;
+}
 
-  .grid-desk-xiaomi{ 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  }
+.grid-desk-xiaomi{ 
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
 
-  .img-grid-mob{display: none;}
-  .img-grid-desk{display: block;padding: 8rem;}
-  .icon-white-desk{display: block;}
-  .icon-dark-mob{display: none;}
+.img-grid-mob{display: none;}
+.img-grid-desk{display: block;padding: 8rem;}
+.icon-white-desk{display: block;}
+.icon-dark-mob{display: none;}
 
 /****************************** Mobile ************************************************/
 
 @media only screen and (min-width: 0px) and (max-width: 920px) {
 
-  .icon-white-desk{display: none;}
-  .icon-dark-mob{display: block;}
-  .img-grid-desk{display: none;}
-  .img-grid-mob{display: block; }
+.icon-white-desk{display: none;}
+.icon-dark-mob{display: block;}
+.img-grid-desk{display: none;}
+.img-grid-mob{display: block; }
 
 /********************** Grind Mobile *******************/
 
-  .grid-desk-xiaomi {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  }
+.grid-desk-xiaomi {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
 
 /********************************************************/
 
-  .spacing{padding: 1.5rem;}
+.spacing{padding: 1.5rem;}
 
-  p.txt-branco-preto {color: #05061a;}
+p.txt-branco-preto {color: #05061a;}
 
-  .title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Xiaomi Brand";
-  position: relative;
-  line-height: 1;
-  }
+.title {
+text-align: center;
+font-size: 2.5rem;
+font-weight: 500;
+font-family: "Xiaomi Brand";
+position: relative;
+line-height: 1;
+}
 
-  .subtitle {
-  text-align: center;
-  font-size: 1.09rem;
-  font-weight: 700;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 0.5rem;
-  }
+.subtitle {
+text-align: center;
+font-size: 1.5rem;
+font-weight: 700;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+margin-bottom: 0.5rem;
+}
 
-  .p-center {
-  font-size: 0.99rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+.sub-title {
+text-align: center;
+font-size: 1.3rem;
+font-weight: 300;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+margin-bottom: 1rem;
+overflow-wrap: break-word;
+}
 
-  .p-aviso {
-  font-size: 0.7rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 300;
-  padding: 1.5rem
-  }
+.p-center {
+font-size: 0.99rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
 
-  .p-notas {
-  text-align: left;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  }
+.p-aviso {
+font-size: 0.7rem;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
+font-weight: 300;
+padding: 1.5rem
+}
+
+.p-notas {
+text-align: left;
+font-size: 0.9rem;
+padding: 0.5rem;
+}
 
 }

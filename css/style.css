@@ -76,13 +76,33 @@ margin-bottom: 1rem;
 overflow-wrap: break-word;
 }
 
-.p-center {
-font-size: 1.1rem;
+.subtitle-grid-xioami{
 text-align: center;
-padding: 20px;
+font-size: 2.3rem;
+font-weight: 600;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
-line-height: 1.3;
+margin-bottom: 1rem;
+overflow-wrap: break-word;
+}
+
+
+.p-center {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 20px;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+
+.p-center-xiaomi {
+font-size: 1.5rem;
+font-weight: 600;
+text-align: center;
+font-family: "Camphor Pro", sans-serif;
+position: relative;
 overflow-wrap: break-word;
 }
 
@@ -136,7 +156,7 @@ gap: 5rem;
 .icon-white-desk{display: none;}
 .icon-dark-mob{display: block;}
 .img-grid-desk{display: none;}
-.img-grid-mob{display: block; }
+.img-grid-mob{display: block;}
 
 /********************** Grind Mobile *******************/
 
